@@ -8,7 +8,9 @@ Basic Branch Commands:
 git branch	--> List all branches in the repo
 git branch <branch_name> --> Create a new branch
 git checkout <branch_name> -->	Switch to a specific branch
+git switch <branch_name>  --> Switch to a specific branch
 git checkout -b <branch_name> --> Create and switch to a new branch at the same time
+git merge <branch_name>  --> Merge another branch into the current branch
 
 
 COMMIT HISTORY:
@@ -22,4 +24,6 @@ What is commit history?
     -->Message describing changes
 
 Commands for Commit History:
-git log -->Show full commit history
+git log -->Shows present and previous versions
+git log --all  -->Shows all versions
+git checkout <commit-id/hash-id> -->Jump from one version to another version
