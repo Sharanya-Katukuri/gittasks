@@ -1,0 +1,25 @@
+GIT BRANCHES:
+
+What is a branch?
+---A branch is like a parallel version of your project.
+---It lets you work on new features or fixes without affecting the main project (usually the main branch).
+
+Basic Branch Commands:
+git branch	--> List all branches in the repo
+git branch <branch_name> --> Create a new branch
+git checkout <branch_name> -->	Switch to a specific branch
+git checkout -b <branch_name> --> Create and switch to a new branch at the same time
+
+
+COMMIT HISTORY:
+
+What is commit history?
+---Commit history is the log of all changes made in the repository.
+---Each commit has:
+    -->Commit ID (hash)
+    -->Author
+    -->Date
+    -->Message describing changes
+
+Commands for Commit History:
+git log -->Show full commit history

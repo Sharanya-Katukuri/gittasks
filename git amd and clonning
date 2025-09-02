@@ -1,0 +1,25 @@
+GIT COMMANDS
+git init--->Initialize a new Git repository in our project folder
+git status--->Check the status of our files (modified, staged, untracked)
+git add <filename>--->Add a specific file to the staging area
+git add . --->Add all files in the folder to the staging area
+git commit -m "message" --->Commit staged changes with a message describing the changes
+git remote add origin <repo_url> --->Connect local repository to a remote GitHub repository
+git push -u origin main --->Push our changes to the remote repository (first time)
+git push --->Push changes after first-time setup
+git pull --->Pull changes from remote repository to local machine
+
+
+CLONNING A REPOSITORY:
+Cloning means copying a GitHub repository to our local machine so you can work on it.
+1.Copy the repository link
+Go to the GitHub repo → Click Code → Copy HTTPS link
+Example: https://github.com/username/repo.git
+2.Open terminal or command prompt
+Go to the folder where you want to save the project:
+cd path/to/folder
+3.Run the clone command
+git clone https://github.com/username/repo.git
+4.Go inside the cloned folder
+cd repo
+Done! Now you have the repository on our computer and can start working on it.

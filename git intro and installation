@@ -1,0 +1,55 @@
+GIT:
+---git stands for Global Information Tracker (GIT).
+---A Version Control System (VCS).
+---It helps developers track changes in their code, collaborate with others, and manage different versions of a project.
+---It is a software
+---Works locally on your computer.
+
+
+GITHUB:
+---A cloud-based hosting service that stores Git repositories online.
+---It allows developers to:
+        -->Share code with others
+        -->Collaborate on projects
+        -->Contribute to open-source projects
+        -->Manage issues and project workflows
+---It is a website/platform to host Git repositories.
+
+
+INSTALL GIT:
+1.Download Git:
+---Go to: https://git-scm.com/downloads
+---Choose your OS (Windows, macOS, Linux).
+2.Install Git
+---Run the installer.
+---Keep default options (recommended).
+---After installation, open Command Prompt (Windows) or Terminal (Mac/Linux).
+3.Verify Installation
+
+git --version
+
+If it shows a version (e.g., git version 2.42.0), installation is successful.
+
+SETTING UP GIT(FIRST TIME ONLY):
+Run these commands (replace with your info):
+
+git config --global user.name "Your Name"
+git config --global user.email "youremail@example.com"
+
+
+CREATING A GITHUB ACCOUNT & LOGIN:
+1.Go to: https://github.com
+2.Click Sign up.
+3.Enter details:
+    -->Username
+    -->Email
+    -->Password
+    -->Verify email
+4.Once signed up, log in with your credentials
+
+CONNECTING GIT WITH GITHUB(USING HTTPS)
+Go to your GitHub → Settings → Developer settings → Personal access tokens.
+Generate a token (with repo access).
+When you run git push for the first time, Git will ask for:
+Username → your GitHub username
+Password → paste the token
